@@ -1,0 +1,44 @@
+// Custom variables  
+
+// Color Scheme
+@import "variables/color-scheme";
+
+// Options
+// Quickly modify global styling by enabling or disabling optional features.
+@import "variables/options";  
+
+
+$grid-gutter-width: 38px !default; 
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1310px
+) !default;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1230px
+) !default;
+
+$border-radius:               0 !default;
+$border-radius-lg:            0 !default;
+$border-radius-sm:            0 !default;
+
+$input-color: $primary !default;
+$input-placeholder-color: $primary !default;
+$input-border-color: rgba($primary,.8) !default;
+$input-focus-border-color: rgba($primary,1) !default;
+
+$input-btn-padding-y:0.75rem!default;
+$input-btn-padding-x:1.2rem!default;
+
+// navbar
+$navbar-padding-y:0!default;
+$navbar-padding-x:0!default; 
+$navbar-brand-padding-y:0!default;
+$navbar-brand-padding-x:0!default;

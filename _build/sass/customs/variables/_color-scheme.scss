@@ -1,0 +1,12 @@
+$body-bg:                   #efefef !default;
+$body-color:                #232323 !default; 
+
+$primary: #232323 !default;
+$secondary: #757575 !default;
+$light: $body-bg !default;
+$white: #fff !default;
+
+$theme-colors: () !default;
+$theme-colors: map-merge(( 
+  "white":       $white
+), $theme-colors); 

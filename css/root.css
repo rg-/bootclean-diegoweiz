@@ -1,0 +1,40 @@
+:root {
+  --primary: #232323;
+  --secondary: #757575;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #efefef;
+  --dark: #343a40;
+  --white: #fff;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1310px;
+  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+
+:root_colors {
+  --primary: #232323;
+  --secondary: #757575;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #efefef;
+  --dark: #343a40;
+  --white: #fff; }
+
+:root_colors_each {
+  --navbar-light-color: rgba(0, 0, 0, 0.5); }
+
+:root_breakpoint {
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1310px; }
+
+/*# sourceMappingURL=root.css.map */

@@ -1,0 +1,103 @@
+.single-product .bootstrap-select {
+	width: 100%!important;
+	> select{ 
+		min-width: unset!important;
+	}
+	> .dropdown-toggle{
+		padding: 4px 0;
+		font-size: 1.2rem;
+		border-bottom:1px solid $primary!important;
+	}
+	&.show-tick {
+		.dropdown-menu {
+			.selected {
+				span.check-mark{
+					top:10px;
+				}
+			}
+		}
+	}
+} 
+
+.form-controls-transparent{
+	.form-control{
+
+		color:#fff;
+
+		background-color:transparent;
+		border-color:transparent;
+		@include box-shadow(none); 
+
+		background-image: linear-gradient(0deg,rgba(#fff,.6) 2px,rgba(#fff,.6) 2px);
+	  background-size: 100% 2px;
+	  background-repeat: no-repeat;
+	  background-position: bottom;
+
+	  &:focus{
+		  background-image: linear-gradient(0deg,rgba(#fff,1) 1px,rgba(#fff,1) 0);
+		  -webkit-animation: material-text-input-animate .3s forwards;
+		  animation: material-text-input-animate .3s forwards;
+
+		  border-color: transparent;
+		  outline:0;
+		  box-shadow:none; 
+		}
+		&::placeholder{
+			color:rgba(#fff,.6);
+		}
+
+	}
+} 
+
+.ui-search-form{
+	.form-group{
+		position:relative;
+		.form-control{
+			letter-spacing: 1px;
+			padding:6px 0!important;
+			height: 37px;
+			line-height: 1;
+			background-image: linear-gradient(0deg,rgba(#fff,1) 2px,rgba(#fff,1) 2px);
+			&::placeholder{
+				color:rgba(#fff,1);
+			}
+		}
+		.btn-icon{
+			position:absolute;
+			top:7px;
+			right: 0;
+			z-index: 10; 
+		}
+	}
+}
+
+.ui-footer_form{
+	max-width: 640px;
+	margin: 0 auto;
+	text-align: center;
+	.form-group{ 
+	}
+	.form-control{
+		text-align: center;
+	}
+	.btn{
+		border-width: 3px;
+	}
+}
+
+
+.bg-light .form-controls-transparent{
+	.form-control{
+		color:$primary;
+		background-image: linear-gradient(0deg,$secondary 2px,$secondary 2px);
+		&:focus{
+			background-image: linear-gradient(0deg,$primary 1px,$primary 0);
+			&::placeholder{
+				color:transparent!important;
+			}
+		}
+		&::placeholder{
+			color:$primary;
+		}
+	}
+}

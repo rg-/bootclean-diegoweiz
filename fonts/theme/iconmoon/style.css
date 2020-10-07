@@ -1,0 +1,117 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('icomoon.eot?aav6f1');
+  src:  url('icomoon.eot?aav6f1#iefix') format('embedded-opentype'),
+    url('icomoon.ttf?aav6f1') format('truetype'),
+    url('icomoon.woff?aav6f1') format('woff'),
+    url('icomoon.svg?aav6f1#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-stumbleupon-circle:before {
+  content: "\e914";
+}
+.icon-digg:before {
+  content: "\e90c";
+}
+.icon-stumbleupon:before {
+  content: "\e915";
+}
+.icon-google-plus-alt:before {
+  content: "\e90d";
+}
+.icon-google-plus:before {
+  content: "\e90e";
+}
+.icon-google:before {
+  content: "\e90f";
+}
+.icon-pinterest:before {
+  content: "\e910";
+}
+.icon-pinterest-alt:before {
+  content: "\e911";
+}
+.icon-delicious:before {
+  content: "\e912";
+}
+.icon-location:before {
+  content: "\e909";
+}
+.icon-whatsapp:before {
+  content: "\e90a";
+}
+.icon-youtube:before {
+  content: "\e904";
+}
+.icon-youtube-large:before {
+  content: "\e913";
+}
+.icon-linkedin:before {
+  content: "\e905";
+}
+.icon-instagram:before {
+  content: "\e906";
+}
+.icon-twitter:before {
+  content: "\e907";
+}
+.icon-facebook:before {
+  content: "\e908";
+}
+.icon-share:before {
+  content: "\e90b";
+}
+.icon-arrow-down:before {
+  content: "\e900";
+}
+.icon-arrow-left:before {
+  content: "\e901";
+}
+.icon-arrow-right:before {
+  content: "\e902";
+}
+.icon-arrow-up:before {
+  content: "\e903";
+}
+.icon-w-search:before {
+  content: "\e91a";
+}
+.icon-w-arrow-down:before {
+  content: "\e916";
+}
+.icon-w-arrow-up:before {
+  content: "\e91b";
+}
+.icon-w-arrow-prev:before {
+  content: "\e91c";
+}
+.icon-w-arrow-next:before {
+  content: "\e91d";
+}
+.icon-w-arrow-up-right:before {
+  content: "\e917";
+}
+.icon-w-instagram:before {
+  content: "\e918";
+}
+.icon-w-envelope:before {
+  content: "\e919";
+}

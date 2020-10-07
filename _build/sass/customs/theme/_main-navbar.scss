@@ -1,0 +1,33 @@
+#main-navbar,
+#navbar-products{
+	
+	.nav-link{
+		font-size:14px;
+		letter-spacing: 1px;
+		color:#fff;
+		text-transform: uppercase;
+		padding: 0.5rem 1.3rem;
+		@include transition();
+		&:hover{
+			@include opacity(.8);
+		}
+	}
+	.btn-icon{
+		color:#fff;
+	}
+
+	&.bg-light{
+		.btn-icon,
+		.nav-link{
+			color:$primary;
+		}
+	}
+
+}
+
+#navbar-products{
+	padding:25px 0;
+	.nav-link{
+		padding: .2rem .8rem;
+	}
+}
