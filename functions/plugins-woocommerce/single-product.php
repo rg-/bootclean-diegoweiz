@@ -71,6 +71,20 @@ add_action( 'woocommerce_single_product_summary', function(){
 
 }, 0);
 
+
+add_filter( 'woocommerce_reset_variations_link', function($link){
+	$link = '<a class="reset_variations" href="#"><u>' . esc_html__( 'Reset', 'woocommerce' ) . ' variations</u></a>';
+	return $link;
+},10,1 );
+
+add_action( 'woocommerce_before_single_variation', function(){  
+	global $product; 
+	if( $product->get_type() == 'variable' ){
+		?>
+		<p>Frames only for Uruguay shipping.</p>
+		<?php
+	}
+}, 10);
 /**
 	 * Hook: woocommerce_after_single_product_summary.
 	 *

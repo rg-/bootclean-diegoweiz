@@ -23,7 +23,7 @@
 
 	<?php if(!empty($row_args['video-mp4'])){ ?>
 		<video class="ui-video-full--video" playsinline autoplay muted onplaying="this.controls=false;this.playbackRate=0.35;" loop>
-	      <source src="<?php echo wp_get_attachment_url($row_args['video-mp4']); ?>" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+	      <source src="<?php echo wp_get_attachment_url($row_args['video-mp4']); ?>" type='video/mp4"'>
 	   </video>
 	 <?php } ?>
 

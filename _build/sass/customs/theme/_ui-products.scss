@@ -1,0 +1,125 @@
+.ui-products-gallery{
+
+}
+.ui-product-item{
+	padding: 2px;
+	a{
+		display: block;
+		position: relative;
+		img{
+			display: block;
+			position: relative;
+			z-index: 1;
+		}
+		.overlay{
+			position:absolute;
+			top:0;
+			bottom:0;
+			left:0;
+			right:0;
+			z-index: 10;
+			padding:22px;
+			background-color:rgba(#000,.4);
+			@include transition();
+			@include opacity(0);
+			.title{
+				font-size: 17px;
+				line-height: 21px;
+				color:#fff;
+				@include transition();
+				@include translate(0,25%);
+				width: 50%;
+			}
+		}
+		&:hover{
+			.overlay{
+				@include opacity(1);
+				.title{
+					@include translate(0,0);
+				}
+			}
+		}
+	}  
+}
+
+
+.single-product .wpbc-woo-container-area{
+
+	.summary{
+		@include breakpoint(lg){
+			padding-left:$grid-gutter*2!important;
+		}
+	}
+
+	table.variations{
+		display: block;
+		tbody{
+			display: block;
+		}
+		tr{
+			display: block;
+			margin-bottom:$grid-gutter;
+			td{
+				display: block;
+			}
+		} 
+		label{
+			margin-top:$grid-gutter;
+			margin-bottom: 0;
+			color: $secondary;
+			font-weight: normal;
+		}
+		.reset_variations{
+			display: block;
+		}
+	} 
+
+	.section-title{
+		font-size: 2.2rem;
+		&.md{
+			font-size: 1.4rem;
+		}
+	}
+	.section-subtitle{
+		font-size: 1.3rem; 
+	}
+
+	.woo_single_variable_summary{
+		.woo_single_variable_information{
+
+			.woo_single_variable_information_content{
+				border-top:1px solid rgba($secondary,.6);
+				color:$secondary;
+				margin-top: $grid-gutter;
+				padding-top:$grid-gutter;
+				padding-bottom:$grid-gutter;
+			}
+		}
+	}
+
+	.single_variation_wrap{
+		
+		.woocommerce-Price-amount{
+			color:$primary;
+			font-size: 1.8rem;
+			.woocommerce-Price-currencySymbol{
+				font-size: 1rem;
+			}
+		}
+		.woocommerce-variation-add-to-cart{
+			margin-top: $grid-gutter;
+			.single_add_to_cart_button {
+				border-color:$primary;
+				background-color:$light;
+				color:$primary;
+				font-size: 1.3rem;
+				padding-left: 2rem;
+				padding-right: 2rem;
+			}
+		}
+	}
+
+	form.cart .reset_variations{
+		margin-top:$grid-gutter;
+	}
+}

@@ -1,0 +1,39 @@
+.slick-prev, .slick-next{
+	width: 57px;
+	height: 57px;
+	background-color:$light;
+	&:hover,
+	&:focus{
+		background-color:#fff;
+	}
+	&:before,
+	&:after{
+
+		color:$primary;
+		font-size: 28px;
+
+		font-family: 'icomoon' !important;
+	  speak: never;
+	  font-style: normal;
+	  font-weight: normal;
+	  font-variant: normal;
+	  text-transform: none;
+	  line-height: 1;
+
+	  /* Better Font Rendering =========== */
+	  -webkit-font-smoothing: antialiased;
+	  -moz-osx-font-smoothing: grayscale;
+	}
+} 
+.slick-next {
+	right: 0;
+	&:before{
+    content: "\e91d";
+	}
+}
+.slick-prev {
+	left: 0;
+	&:before{
+    content: "\e91c";
+	}
+}
